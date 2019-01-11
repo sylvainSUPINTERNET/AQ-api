@@ -1,0 +1,23 @@
+{
+  "name": "aq",
+  "version": "1.0.0",
+  "description": "Personnal musics library / sharing ",
+  "main": "index.js",
+  "scripts": {
+    "test": "mocha",
+    "build": "tsc",
+    "dev": "ts-node ./src/server.ts",
+    "start": "nodemon ./dist/server.js",
+    "prod": "npm run build && npm run start"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@types/express": "^4.16.0",
+    "@types/mongoose": "^5.3.7",
+    "body-parser": "^1.18.3",
+    "express": "^4.16.4",
+    "mocha": "^5.2.0",
+    "mongoose": "^5.4.3"
+  }
+}
